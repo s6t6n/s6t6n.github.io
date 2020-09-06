@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: #77ACA2 3px solid;
+}
+
+#header {
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#header .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000000bb;
+}
+
+#header .header-inner {
+    padding-top: 35vh;
+}
+
+#header .card-form {
+    opacity: .8;
+}
+
+#header .fas {
+    color: #008ed6;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#explore .fas {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.progress {
+    height: 30px;
+    font-weight: bold;
+}
+
+.project {
+    height: 250px;
+    width: 250px;
+    border: #333 2px solid;
+}
+
+.fa-facebook {
+    color: #3b5998 ;
+}
+
+.fa-linkedin {
+    color: #0077B5;
+}
+
+.fa-github-square {
+    color: #333;
+}
+
+.fa-envelope-square {
+    color: crimson;
+}
+
+.contact-icon {
+    transition: .4s;
+}
+
+.contact-icon:hover {
+    transition: .4s;
+    transform: scale(1.2);
+}
+
+.nounderline {
+    text-decoration: none !important;
+}
+
+.carousel-text {
+    background-color: #FFFFFFEE;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000;
+    font-size: 28px;
+    font-weight: 900;
+}
